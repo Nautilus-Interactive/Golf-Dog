@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="268.53834"
-     inkscape:cy="508.15389"
+     inkscape:cx="498.34926"
+     inkscape:cy="501.57532"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -44,12 +44,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Golf Ball"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
@@ -58,5 +58,51 @@
        cx="126.24404"
        cy="173.0238"
        r="34.773811" />
+    <ellipse
+       id="path3725"
+       cx="34.866661"
+       cy="262.13333"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       ry="33.866665"
+       rx="33.866661"
+       inkscape:export-filename="C:\Users\Adam\Documents\Nautilus Interactive\Projects\Golf-Dog\Assets\Sprites\Golf Ball.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Tennis Ball">
+    <circle
+       id="path3725-4"
+       cx="107.53423"
+       cy="261.84821"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="33.866665"
+       inkscape:export-filename="C:\Users\Adam\Documents\Nautilus Interactive\Projects\Golf-Dog\Assets\Sprites\Tennis Ball.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 76.367718,248.58075 c 0,0 8.817103,2.60359 36.376662,-4.78097 27.55956,-7.38457 27.56527,42.77474 -0.0716,35.36946 -27.636869,-7.40528 -36.49409,-4.61515 -36.49409,-4.61515"
+       id="path4552"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc"
+       inkscape:export-filename="C:\Users\Adam\Documents\Nautilus Interactive\Projects\Golf-Dog\Assets\Sprites\Tennis Ball.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Bone">
+    <path
+       style="fill:#c8c8c8;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.917803,114.09365 a 30.238094,30.238094 0 0 0 -30.237949,30.23795 30.238094,30.238094 0 0 0 11.3889688,23.60735 30.238094,30.238094 0 0 0 -11.3889688,23.6399 30.238094,30.238094 0 0 0 30.237949,30.23794 30.238094,30.238094 0 0 0 29.857607,-25.7023 h 64.24724 a 30.238094,30.238094 0 0 0 29.87156,25.7023 30.238094,30.238094 0 0 0 30.23795,-30.23794 30.238094,30.238094 0 0 0 -11.38897,-23.60683 30.238094,30.238094 0 0 0 11.38897,-23.64042 30.238094,30.238094 0 0 0 -30.23795,-30.23795 30.238094,30.238094 0 0 0 -29.77234,25.13542 H 42.720633 a 30.238094,30.238094 0 0 0 -29.80283,-25.13542 z"
+       id="path4629"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Adam\Documents\Nautilus Interactive\Projects\Golf-Dog\Assets\Sprites\Bone.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
