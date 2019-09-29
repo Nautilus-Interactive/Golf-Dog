@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="419.88037"
-     inkscape:cy="571.10224"
+     inkscape:zoom="2.8"
+     inkscape:cx="298.65503"
+     inkscape:cy="57.716216"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -80,6 +80,16 @@
        height="218.32217"
        x="90.401512"
        y="63.475918"
+       inkscape:export-filename="C:\Users\Adam\Documents\Nautilus Interactive\Projects\Golf-Dog\Assets\Sprites\Flag.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1371"
+       width="21.450148"
+       height="8.6934528"
+       x="85.517113"
+       y="276.49478"
        inkscape:export-filename="C:\Users\Adam\Documents\Nautilus Interactive\Projects\Golf-Dog\Assets\Sprites\Flag.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
