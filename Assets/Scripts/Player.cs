@@ -10,6 +10,11 @@ public class Player : MonoBehaviour
     public float maxPower;
     public Vector2 angle;
 
+    public GameObject tennisBall;
+    public GameObject bone;
+
+    public string moveType = "swing";
+
     private Rigidbody2D rigidbody2D;
     public GameObject golfBall;
     Vector2 direction;
@@ -20,7 +25,6 @@ public class Player : MonoBehaviour
     }
 
     private void Update() {
-
         Camera.main.ScreenToWorldPoint(Input.mousePosition);
         angle = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
 
@@ -36,7 +40,21 @@ public class Player : MonoBehaviour
 
     private void HitBall() {
         Vector2 force = angle * power * powerModifer;
-        golfBall.GetComponent<Rigidbody2D>().AddForce(force);
+        GameObject temp = null;
+        switch (moveType) {
+            case "swing":
+                temp = golfBall;
+                break;
+            case "tennis":
+                temp = Instantiate(tennisBall, transform.position, Quaternion.identity);
+                temp.GetComponent<Rigidbody2D>().AddTorque(Random.Range(-15.0f, 15.0f));
+                break;
+            case "bone":
+                temp = Instantiate(bone, transform.position, Quaternion.identity);
+                temp.GetComponent<Rigidbody2D>().AddTorque(Random.Range(-15.0f, 15.0f));
+                break;
+        }
+        temp.GetComponent<Rigidbody2D>().AddForce(force);
     }
 
     private void FixedUpdate() {
